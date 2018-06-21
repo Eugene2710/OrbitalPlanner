@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "711591054346",
+    "firebase_url": "https://notes-overview.firebaseio.com",
+    "project_id": "notes-overview",
+    "storage_bucket": "notes-overview.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711591054346:android:0f058f893177c4ea",
+        "android_client_info": {
+          "package_name": "com.example.futeck.planner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711591054346-8hjdhm9q4co21j7o3puann4uggmgdufu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.futeck.planner",
+            "certificate_hash": "a9e2be5a7752c8cc09dca15799aef19f9996dc2d"
+          }
+        },
+        {
+          "client_id": "711591054346-stdms5sulrg9vgbffehg2fjddk9lh07q.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "711591054346-stdms5sulrg9vgbffehg2fjddk9lh07q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLYlpTYzQZYZfssQw5KFTC-6OaniY3_gQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711591054346-stdms5sulrg9vgbffehg2fjddk9lh07q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
