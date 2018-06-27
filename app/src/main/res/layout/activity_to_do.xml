@@ -23,14 +23,14 @@
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.972"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99"
+        app:layout_constraintVertical_bias="0.981"
         app:srcCompat="@android:drawable/ic_menu_send" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/editTextTaskDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -50,7 +50,7 @@
         app:layout_constraintVertical_bias="0.102" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/TextViewTaskDescription"
         android:layout_width="111dp"
         android:layout_height="51dp"
         android:layout_marginBottom="8dp"
@@ -60,7 +60,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="@string/Task_Description"
-        android:textSize="15dp"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -69,7 +69,7 @@
         app:layout_constraintVertical_bias="0.092" />
 
     <TextView
-        android:id="@+id/Task_of_Title"
+        android:id="@+id/TextViewTaskTitle"
         android:layout_width="102dp"
         android:layout_height="41dp"
         android:layout_marginBottom="8dp"
@@ -79,7 +79,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="@string/Task_Title"
-        android:textSize="18dp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -88,7 +88,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/Task_of_Description"
+        android:id="@+id/editTextTaskTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -108,8 +108,8 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <DatePicker
-        android:layout_width="288dp"
-        android:layout_height="399dp"
+        android:layout_width="272dp"
+        android:layout_height="403dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -121,5 +121,5 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.916"></DatePicker>
+        app:layout_constraintVertical_bias="1.0"></DatePicker>
 </android.support.constraint.ConstraintLayout>

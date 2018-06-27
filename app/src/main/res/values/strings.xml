@@ -16,9 +16,11 @@
     <string name="from">From:</string>
     <string name="to">To:</string>
     <string name="save_event">SAVE EVENT</string>
+    <string name="delete_event">DELETE EVENT</string>
     <string name="Task_Title">Title of Task</string>
     <string name="Task_Description">Description of Task</string>
     <string name="Create_Task">Create Task</string>
     <string name="Date_created">Date created: </string>
     <string name="add">ADD</string>
+    <string name="date">Date:</string>
 </resources>

@@ -1,7 +1,9 @@
 package com.example.futeck.planner;
 
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -15,8 +17,54 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.ArrayList;
 
 public class Notes_Overview extends AppCompatActivity implements View.OnClickListener {
+
+    private FloatingActionButton FAB;
+    private EditText tasktitle;
+    private RecyclerView recyclerView;
+
     @Override
     public void onClick(View v) {
+        FAB = findViewById(R.id.floatingActionButton);
+        tasktitle = findViewById(R.id.task_title_edittext);
+        recyclerView = findViewById(R.id.recycler_view);
+
+       /* FAB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (tasktitle != null) {*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 

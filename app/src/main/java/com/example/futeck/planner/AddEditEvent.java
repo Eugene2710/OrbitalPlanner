@@ -8,24 +8,21 @@ import android.widget.Button;
 
 public class AddEditEvent extends AppCompatActivity {
 
-    private Button redirectCalendarButton;
+/*    private Button redirectCalendarButton;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_edit_event);
 
-        redirectCalendarButton = findViewById(R.id.CalendarRedirectButton);
+/*        redirectCalendarButton = findViewById(R.id.CalendarRedirectButton);
 
         redirectCalendarButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(AddEditEvent.this, Calendar_Overview.class);
-                startActivity(intent);
+                startActivity(intent);*/
 
-
-    }
-});
     }
 }

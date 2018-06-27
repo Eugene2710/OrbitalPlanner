@@ -9,21 +9,42 @@
     tools:context=".Notes_Overview">
 
     <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="427dp" />
+        android:layout_height="380dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="60dp"
         android:layout_height="100dp"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="14dp"
-        android:layout_marginEnd="17dp"
-        android:layout_marginRight="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="16dp"
         android:clickable="true"
         android:focusable="true"
         app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:text="@string/calendar" />
+
+    <EditText
+        android:id="@+id/task_title_edittext"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/floatingActionButton"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/Task_Title" />
 
 </RelativeLayout>
