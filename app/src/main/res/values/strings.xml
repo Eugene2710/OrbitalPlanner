@@ -23,5 +23,6 @@
     <string name="Date_created">Date created: </string>
     <string name="add">ADD</string>
     <string name="date">Date:</string>
+    <string name="to_do">TO-DO</string>
     <string name="details">Details:</string>
 </resources>
